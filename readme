@@ -1,0 +1,11 @@
+Hi I am Jia Yi. I added the following 2 scripts:
+
+encrypt.m (Q2a)
+decrypt.m (Q2b)
+
+My other scripts have the same name as the original scripts provided by Prof Thomas Yeo. (I just modified Prof Yeo's original scripts)
+
+For encrypt.m, I did not employ exactly the following suggested method by Prof Yeo, as I only noticed them after I have finished writing my code:
+    >> frank_original_double = char2double(frank_original_txt);
+    >> frank_encrypted_double = frank_encrypt_key(frank_original_double);
+    >> frank_encrypted_txt = double2char(frank_encrypted_double);
